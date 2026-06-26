@@ -1,0 +1,8 @@
+{
+  "name": "Johannesburg Web Studio",
+  "description": "Portfolio website for Johannesburg Web Studio offering professional web design, hosting, and digital packages.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
