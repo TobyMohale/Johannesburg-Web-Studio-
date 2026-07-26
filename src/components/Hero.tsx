@@ -26,9 +26,9 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-5xl md:text-7xl lg:text-8xl font-black text-white tracking-tighter uppercase leading-[0.9] mb-6"
         >
-          Professional
+          Web Design
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600 mt-2">
-            Web Design
+            Johannesburg
           </span>
         </motion.h1>
 
@@ -49,7 +49,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-lg md:text-xl text-zinc-400 max-w-2xl mx-auto mb-10"
         >
-          Everything you need to build your online presence – at an unbeatable price! Modern, responsive, and made for your business.
+          Everything you need to build your online presence in Johannesburg – at an unbeatable price! Modern, responsive, and made for your business.
         </motion.p>
 
         <motion.div 
