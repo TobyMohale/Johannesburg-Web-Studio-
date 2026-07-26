@@ -6,6 +6,7 @@
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { Features } from './components/Features';
+import { Testimonials } from './components/Testimonials';
 import { Pricing } from './components/Pricing';
 import { Process } from './components/Process';
 import { ContactCTA } from './components/ContactCTA';
@@ -18,6 +19,7 @@ export default function App() {
       <main>
         <Hero />
         <Features />
+        <Testimonials />
         <Pricing />
         <Process />
         <ContactCTA />
