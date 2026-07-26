@@ -18,19 +18,19 @@ export const Footer = () => {
 
         {/* Contact Info */}
         <div className="flex flex-col gap-4 text-zinc-300">
-          <a href="tel:0648297643" className="flex items-center gap-3 hover:text-blue-500 transition-colors">
+          <a href="tel:0648297643" aria-label="Call Johannesburg Web Studio" className="flex items-center gap-3 hover:text-blue-500 transition-colors">
             <div className="bg-blue-500 w-8 h-8 rounded-full flex items-center justify-center text-white shrink-0">
               <Phone className="w-4 h-4" />
             </div>
             <span className="font-medium">064 829 7643</span>
           </a>
-          <a href="https://jhbwebstudio101.netlify.app/" target="_blank" rel="noreferrer" className="flex items-center gap-3 hover:text-blue-500 transition-colors">
+          <a href="https://jhbwebstudio101.netlify.app/" aria-label="Visit Johannesburg Web Studio Website" target="_blank" rel="noreferrer" className="flex items-center gap-3 hover:text-blue-500 transition-colors">
             <div className="bg-blue-500 w-8 h-8 rounded-full flex items-center justify-center text-white shrink-0">
               <Globe className="w-4 h-4" />
             </div>
             <span className="font-medium">https://jhbwebstudio101.netlify.app/</span>
           </a>
-          <a href="mailto:johannesburgwebstudio@gmail.com" className="flex items-center gap-3 hover:text-blue-500 transition-colors">
+          <a href="mailto:johannesburgwebstudio@gmail.com" aria-label="Email Johannesburg Web Studio" className="flex items-center gap-3 hover:text-blue-500 transition-colors">
             <div className="bg-blue-500 w-8 h-8 rounded-full flex items-center justify-center text-white shrink-0">
               <Mail className="w-4 h-4" />
             </div>

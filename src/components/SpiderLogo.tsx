@@ -11,7 +11,10 @@ export const SpiderLogo = ({ className = "w-10 h-10" }: { className?: string }) 
       strokeLinecap="round" 
       strokeLinejoin="round" 
       className="w-full h-full drop-shadow-md"
+      role="img"
+      aria-label="Johannesburg Web Studio Logo"
     >
+      <title>Johannesburg Web Studio</title>
       {/* Body */}
       <circle cx="12" cy="14" r="3.5" fill="#000000" />
       <circle cx="12" cy="8" r="2" fill="#000000" />
